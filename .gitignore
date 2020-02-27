@@ -1,5 +1,7 @@
 .idea
-
+webpack-stats.dev.json
+webpack-stats.prod.json
+assets/bundles
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
