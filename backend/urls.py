@@ -20,5 +20,7 @@ from django.views.generic import TemplateView
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", TemplateView.as_view(template_name="index.html")),
+    
+    # Make sure this is the last path, as it is a catch-all (used for react-router)
+    re_path("", TemplateView.as_view(template_name="index.html")),
 ]
