@@ -1,3 +1,11 @@
+# Actually, let's do it another way
+### This project starts by creating a Django app, then running create-react-app inside. I ran into issues trying to deploy this to heroku, so I found a better way to do it.
+
+### Run create-react-app first, then start the django app in the same directory. The new project can be found here:
+### https://github.com/bmiczek/react-django-boilerplate
+
+---
+
 # Django React Boilerplate Setup
 Reference this pull request while following the below steps: https://github.com/bmiczek/django-react-boilerplate/pull/1
 
